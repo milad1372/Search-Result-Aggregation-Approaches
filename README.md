@@ -1,0 +1,1 @@
+# A-Study-of-Search-Result-Aggregation-Approaches-for-the-Digital-Humanities
