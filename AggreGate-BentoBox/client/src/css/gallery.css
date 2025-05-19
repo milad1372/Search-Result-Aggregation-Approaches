@@ -1,0 +1,6 @@
+
+.gallery-container .card-container-grid {
+    column-count: 4;
+    /*display: 'flex';*/
+    column-gap: 20px !important; /* Adjust the gap between cards as needed */
+}

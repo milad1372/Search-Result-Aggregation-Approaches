@@ -1,0 +1,679 @@
+
+
+figcaption cite {
+    background: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    bottom: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+    color: inherit;
+    display: inline;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: normal;
+    left: initial;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 75%;
+    padding: 0.75rem;
+    position: absolute;
+    right: 0.5rem;
+    text-align: left;
+}
+@media (min-width: 3020px) {
+    .xxl-page figcaption cite {
+        border-radius: 0.375rem;
+        bottom: 0.75rem;
+        font-size: 1.125rem;
+        padding: 1.125rem;
+        right: 0.75rem;
+    }
+}
+
+figcaption cite.cite-attribution a {
+    text-decoration: none;
+}
+figcaption cite p {
+    color: #4d4d4d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.25rem;
+}
+@media (min-width: 3020px) {
+    .xxl-page figcaption cite p {
+        margin-bottom: 0.375rem;
+    }
+}
+
+figcaption cite .icon-external-link {
+    line-height: 1.5;
+}
+figcaption cite .attribution {
+    margin-top: 0.5rem;
+}
+@media (min-width: 3020px) {
+    .xxl-page figcaption cite .attribution {
+        margin-top: 0.75rem;
+    }
+}
+
+figcaption cite .attribution > span {
+    margin-left: 0;
+}
+figcaption cite .attribution > span .license {
+    font-size: 0.875rem;
+    margin-top: -0.1rem;
+}
+@media (min-width: 3020px) {
+    .xxl-page figcaption cite .attribution > span .license {
+        font-size: 1.3125rem;
+        margin-top: -0.15rem;
+    }
+}
+
+blockquote + p cite {
+    padding-top: 0.75rem;
+    margin-top: -1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    width: 100%;
+}
+
+.nuxt-progress {
+    background-color: #0a72cc;
+    height: 0.25rem;
+    left: 0;
+    opacity: 1;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: width 0.1s, opacity 0.4s;
+    width: 0;
+    z-index: 999999;
+}
+
+.btn:focus, body .pf-c-button:focus, body #delete-account .pf-c-expandable-section__toggle:focus,
+input[type=checkbox]:focus + label {
+    outline: auto;
+    /* stylelint-disable */
+    /* stylelint-enable */
+}
+@media (-webkit-min-device-pixel-ratio: 0) {
+    .btn:focus, body .pf-c-button:focus, body #delete-account .pf-c-expandable-section__toggle:focus,
+    input[type=checkbox]:focus + label {
+        outline: -webkit-focus-ring-color auto 5px;
+    }
+}
+
+main#default {
+    margin-top: 70px;
+}
+@media (min-width: 3020px) {
+    main#default {
+        margin-top: 105px;
+    }
+}
+
+.organisation-logo {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 66.67%;
+    background-blend-mode: multiply;
+}
+@media (min-width: 3020px) {
+    .xxl-page .organisation-logo {
+        height: 108px;
+        width: 108px;
+    }
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.default-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 1880px) {
+    .default-thumbnail {
+        aspect-ratio: 4/3;
+    }
+}
+.default-thumbnail [class^=icon-],
+.default-thumbnail [class*=" icon-"] {
+    font-size: 3.5rem;
+    opacity: 0.3;
+    mix-blend-mode: multiply;
+}
+@media (min-width: 3020px) {
+    .xxl-page .default-thumbnail [class^=icon-],
+    .xxl-page .default-thumbnail [class*=" icon-"] {
+        font-size: 5.25rem;
+    }
+}
+
+.white-page {
+    background: #fff;
+    margin-top: -3rem;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .white-page {
+        min-height: 30rem;
+    }
+}
+@media (min-width: 1880px) {
+    .white-page {
+        min-height: 30vh;
+    }
+}
+.white-page::after {
+    border-top: 221px solid #fff;
+    border-left: 115px solid transparent;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 0;
+}
+@media (min-width: 1880px) {
+    .white-page::after {
+        border-top-width: 13.0625vw;
+        border-left-width: 5.9375vw;
+    }
+}
+
+.alert {
+    font-size: 0.875rem;
+}
+.alert-error {
+    background-color: #fff;
+    border-color: #c00;
+    color: #1a1a1a;
+}
+.alert-error > .kc-feedback-text {
+    display: table-cell;
+    padding-left: 1.5rem;
+}
+.alert-error > .icon {
+    font-size: 0.5rem;
+    position: absolute;
+    left: 1rem;
+}
+.alert-error > .icon-error-circle-o::before {
+    color: #c00;
+    font-family: "icomoon";
+    font-size: 1rem;
+    content: "\ea0d";
+}
+.alert-success {
+    color: #1a1a1a;
+    background-color: #f1f1ee;
+    border-color: #d9d4ca;
+}
+
+.nav-item:not(:last-child), body .pf-c-page__sidebar .pf-c-nav__item:not(:last-child) {
+    margin-right: 1rem;
+}
+.nav-item .nav-link, .nav-item body .pf-c-page__sidebar .pf-c-nav__link, body .pf-c-page__sidebar .nav-item .pf-c-nav__link, body .pf-c-page__sidebar .pf-c-nav__item .nav-link, body .pf-c-page__sidebar .pf-c-nav__item .pf-c-nav__link {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #4d4d4d;
+    text-decoration: none;
+}
+.nav-item .nav-link.nuxt-link-active, .nav-item body .pf-c-page__sidebar .nuxt-link-active.pf-c-nav__link, .nav-item body .pf-c-page__sidebar .pf-c-nav__link.pf-m-current, body .pf-c-page__sidebar .nav-item .nuxt-link-active.pf-c-nav__link, body .pf-c-page__sidebar .nav-item .pf-c-nav__link.pf-m-current, body .pf-c-page__sidebar .pf-c-nav__item .nav-link.nuxt-link-active, body .pf-c-page__sidebar .pf-c-nav__item .nuxt-link-active.pf-c-nav__link, body .pf-c-page__sidebar .pf-c-nav__item .pf-c-nav__link.pf-m-current {
+    color: #0a72cc;
+}
+.nav-item .nav-link.nuxt-link-active::after, .nav-item body .pf-c-page__sidebar .nuxt-link-active.pf-c-nav__link::after, .nav-item body .pf-c-page__sidebar .pf-c-nav__link.pf-m-current::after, body .pf-c-page__sidebar .nav-item .nuxt-link-active.pf-c-nav__link::after, body .pf-c-page__sidebar .nav-item .pf-c-nav__link.pf-m-current::after, body .pf-c-page__sidebar .pf-c-nav__item .nav-link.nuxt-link-active::after, body .pf-c-page__sidebar .pf-c-nav__item .nuxt-link-active.pf-c-nav__link::after, body .pf-c-page__sidebar .pf-c-nav__item .pf-c-nav__link.pf-m-current::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 3px #0a72cc;
+    border-left: none;
+    display: block;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: -0.45rem;
+}
+.nav-item .nav-link span, .nav-item body .pf-c-page__sidebar .pf-c-nav__link span, body .pf-c-page__sidebar .nav-item .pf-c-nav__link span, body .pf-c-page__sidebar .pf-c-nav__item .nav-link span, body .pf-c-page__sidebar .pf-c-nav__item .pf-c-nav__link span {
+    position: relative;
+}
+
+.kcform, body .pf-c-form {
+    padding: 0.5rem;
+}
+.kcform label, body .pf-c-form label {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    padding-bottom: 0.125rem;
+}
+.kcform .form-control, body .pf-c-form .form-control {
+    background: #fff;
+    font-size: 1rem;
+    padding: 0.5rem;
+    height: 3rem;
+}
+.kcform .form-control:focus, body .pf-c-form .form-control:focus {
+    box-shadow: none;
+}
+.kcform .form-group:focus-within, body .pf-c-form .form-group:focus-within {
+    border-color: #0a72cc;
+    color: #0a72cc;
+}
+.kcform .form-group .form-check, body .pf-c-form .form-group .form-check {
+    padding-left: 1rem;
+}
+.kcform .form-group .form-check .form-check-input, body .pf-c-form .form-group .form-check .form-check-input {
+    margin-left: 0;
+}
+.kcform .form-group .form-check .form-check-label, body .pf-c-form .form-group .form-check .form-check-label {
+    margin-left: 1.25rem;
+}
+.kcform .form-group .form-buttons, body .pf-c-form .form-group .form-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.kcform .form-group .form-buttons .btn, .kcform .form-group .form-buttons body .pf-c-button, body .kcform .form-group .form-buttons .pf-c-button, .kcform .form-group .form-buttons body #delete-account .pf-c-expandable-section__toggle, body #delete-account .kcform .form-group .form-buttons .pf-c-expandable-section__toggle, body .pf-c-form .form-group .form-buttons .btn, body .pf-c-form .form-group .form-buttons .pf-c-button, body .pf-c-form .form-group .form-buttons #delete-account .pf-c-expandable-section__toggle, body #delete-account .pf-c-form .form-group .form-buttons .pf-c-expandable-section__toggle {
+    font-weight: 600;
+    margin-top: 0.75rem;
+}
+.kcform .form-group.has-error, body .pf-c-form .form-group.has-error {
+    color: #a94442;
+}
+.kcform .form-group.has-error .form-control, body .pf-c-form .form-group.has-error .form-control {
+    border-color: #a94442;
+}
+.kcform .form-group.form-group-consent:focus-within, body .pf-c-form .form-group.form-group-consent:focus-within {
+    border-color: initial;
+    color: initial;
+}
+
+a {
+    color: #0a72cc;
+    text-decoration: none;
+}
+a:hover {
+    color: #0a72cc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.instruction {
+    text-align: center;
+    padding: 0 1.5rem 0.25rem 1.5rem;
+}
+
+.kccontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #ededed;
+    height: 100vh;
+    font-family: "Ubuntu", "Open Sans", "Arial", sans-serif !important;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.kccontainer .kcinner {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.kccontainer .kcinner::before {
+    min-height: 50px;
+}
+.kccontainer .kcinner .kcbox {
+    background-color: #fff;
+    border-radius: 0.2rem;
+    flex: 0 1 auto;
+    width: 100%;
+}
+@media (min-width: 576px) {
+    .kccontainer .kcinner .kcbox {
+        width: auto;
+        min-width: 83.3333333333%;
+    }
+}
+@media (min-width: 768px) {
+    .kccontainer .kcinner .kcbox {
+        min-width: 66.6666666667%;
+    }
+}
+@media (min-width: 992px) {
+    .kccontainer .kcinner .kcbox {
+        min-width: 50%;
+    }
+}
+@media (min-width: 1200px) {
+    .kccontainer .kcinner .kcbox {
+        min-width: auto;
+        width: 40rem;
+    }
+}
+.kccontainer .kcinner .kcbox .login-header {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.kccontainer .kcinner .kcbox .divider {
+    border-top: 2px solid #ededed;
+    margin-bottom: 1rem;
+    margin-top: 0.3rem;
+}
+.kccontainer .no-form-wrapper {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+body {
+    --pf-global--FontFamily--sans-serif: Open Sans, Arial, sans-serif;
+    --pf-global--FontFamily--heading--sans-serif: Open Sans, Arial, sans-serif;
+    --pf-global--BackgroundColor--100: #fff;
+    --pf-global--Color--100: #000;
+    --pf-global--Color--light-100: #fff;
+    --pf-global--Color--dark-100: #000;
+    --pf-global--active-color--100: #0a72cc;
+    --pf-global--disabled-color--100: #777;
+    --pf-global--primary-color--100: #0a72cc;
+    --pf-global--primary-color--200: #0a72cc;
+    --pf-global--secondary-color--100: #777;
+    --pf-global--success-color--100: #1d872b;
+    --pf-global--info-color--100: #000;
+    --pf-global--warning-color--100: #ffae00;
+    --pf-global--danger-color--100: #c00;
+    --pf-global--link--Color: #0a72cc;
+    --pf-global--link--Color--hover: #0a72cc;
+}
+body a,
+body a:not([href]):not([class]) {
+    color: #0a72cc;
+}
+body #spinner_screen {
+    background-color: #fff;
+}
+body .pf-l-stack {
+    text-align: center;
+}
+body .pf-l-gallery {
+    justify-content: center;
+    grid-template-columns: auto;
+}
+body .pf-c-page__header {
+    background-color: #fff;
+}
+body .pf-c-page__sidebar {
+    max-width: 18.125rem;
+    background-color: #fff;
+}
+body .pf-c-page__sidebar .pf-c-nav__item {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+body .pf-c-page__sidebar .pf-c-nav__item.pf-m-expandable::before {
+    content: none;
+}
+body .pf-c-page__sidebar .pf-c-nav__link {
+    -webkit-appearance: none;
+    width: auto;
+    z-index: 0;
+}
+body .pf-c-page__sidebar .pf-c-nav__link::before, body .pf-c-page__sidebar .pf-c-nav__link::after {
+    content: none;
+}
+body .pf-c-page__sidebar .pf-c-nav__link:hover, body .pf-c-page__sidebar .pf-c-nav__link:focus {
+    color: #0a72cc;
+    background-color: transparent;
+}
+body .pf-c-page__sidebar .pf-c-nav__link.pf-m-current {
+    background-color: transparent;
+}
+body .pf-c-page__sidebar .pf-c-nav__subnav {
+    padding: 0;
+}
+body .pf-c-page__sidebar .pf-c-nav__subnav .pf-c-nav__item {
+    margin-bottom: 0.5rem;
+}
+body #loggedInUser,
+body #landingLoggedInUser {
+    color: #000;
+}
+body #main_react_container .pf-c-page__main {
+    background-color: #ededed;
+    margin: 0 auto;
+    width: 100%;
+}
+body #main_react_container .pf-c-page__main-section {
+    background-color: #fff;
+    padding: 0 0 1rem 0;
+    width: 100%;
+}
+@media (min-width: 576px) {
+    body #main_react_container .pf-c-page__main-section {
+        width: 83.3333333333%;
+    }
+}
+@media (min-width: 768px) {
+    body #main_react_container .pf-c-page__main-section {
+        width: 66.6666666667%;
+    }
+}
+@media (min-width: 992px) {
+    body #main_react_container .pf-c-page__main-section {
+        width: 50%;
+    }
+}
+@media (min-width: 1200px) {
+    body #main_react_container .pf-c-page__main-section {
+        width: 40rem;
+    }
+}
+body #main_react_container .pf-c-page__main > .pf-c-page__main-section {
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    padding: 0.5rem 1.5rem 1.5rem;
+    flex: 0 1 auto;
+}
+body #main_react_container .pf-c-page__main > .pf-c-page__main-section:first-child {
+    margin-top: 60px;
+}
+body #main_react_container .pf-c-page__main > .pf-c-page__main-section:last-child {
+    margin-bottom: 60px;
+}
+body .pf-c-title {
+    margin-bottom: 1rem;
+}
+body .pf-c-title strong {
+    font-weight: normal;
+}
+body .pf-c-title.pf-m-2xl {
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.175;
+    margin-top: 1.5rem;
+}
+body .pf-c-form {
+    padding: 0;
+    grid-gap: 1.25rem;
+}
+body .pf-c-form .pf-c-form__group {
+    display: block;
+}
+body .pf-c-form .pf-c-form__group .pf-c-form__label,
+body .pf-c-form .pf-c-form__group .pf-c-form__label-text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 0;
+    padding-bottom: 0.125rem;
+    padding-top: 0;
+}
+body .pf-c-form-control {
+    background: #fff;
+    border: 1px solid #4d4d4d;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    padding: 0 1rem;
+    color: #000;
+}
+body .pf-c-form-control:not(textarea) {
+    height: 3rem;
+}
+body .pf-c-form-control:focus {
+    border-color: #0a72cc;
+    border-width: 1px;
+    box-shadow: none;
+}
+body .pf-c-form-control:focus-visible {
+    outline: transparent;
+}
+body .pf-c-form-control.is-invalid {
+    border-color: #c00;
+}
+body .pf-c-form-control option {
+    overflow: visible;
+}
+body .pf-c-form__actions {
+    justify-content: space-between;
+}
+body .pf-c-data-list {
+    border-top: 1px solid #ededed;
+}
+body .pf-c-data-list__item:not(.pf-m-expanded) {
+    border-bottom: 1px solid #ededed;
+}
+body .pf-c-data-list .pf-c-data-list__item[aria-labelledby=sessions] .pf-c-data-list__item-row > div {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+body .pf-c-data-list .pf-c-data-list__item[aria-labelledby=applications-list] .pf-m-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    line-height: 24px;
+    margin-top: -1px;
+}
+body .pf-c-data-list .pf-c-data-list__item[aria-labelledby=applications-list] .pf-c-data-list__item-control {
+    padding-top: 0;
+}
+body .pf-c-data-list__item-row {
+    padding-top: 1rem;
+}
+body .pf-c-data-list__item-row .pf-c-data-list__cell {
+    padding-top: 0;
+}
+@media (min-width: 768px) {
+    body .pf-c-data-list__item-row .pf-c-data-list__cell {
+        margin-right: 0;
+        margin-left: 1rem;
+    }
+    body .pf-c-data-list__item-row .pf-c-data-list__cell:first-child {
+        margin-left: 0;
+    }
+}
+body .pf-c-data-list__item-row .pf-c-data-list__cell:empty {
+    display: none;
+}
+body #nav-toggle,
+body #mobileKebab {
+    font-size: 1.5rem;
+}
+body #nav-toggle svg,
+body #mobileKebab svg {
+    fill: #000;
+    vertical-align: middle;
+    transition: 0.3s ease-in-out;
+}
+body #nav-toggle:hover svg,
+body #mobileKebab:hover svg {
+    fill: #0a72cc;
+    transition: 0.3s ease-in-out;
+}
+body #delete-account .pf-c-expandable-section__toggle {
+    background-color: #c00;
+    border-color: #c00;
+}
+body #delete-account .pf-c-expandable-section__toggle:hover, body #delete-account .pf-c-expandable-section__toggle:focus {
+    background-color: #c00;
+    border-color: #c00;
+}
+body #delete-account .pf-c-expandable-section__toggle svg {
+    display: none;
+}
+body #delete-account .pf-c-expandable-section__toggle span {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-left: 0;
+}
+body #delete-account .pf-c-expandable-section__content .pf-m-gutter .pf-l-grid__item {
+    padding: 0;
+    text-align: left;
+}
+body #delete-account .pf-c-expandable-section .pf-l-grid {
+    display: block;
+}
+body .pf-c-button {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+body .pf-c-button::after {
+    content: none;
+}
+body .pf-c-button.pf-m-danger {
+    background-color: #c00;
+    border-color: #c00;
+}
+body .pf-c-button.pf-m-danger:hover, body .pf-c-button.pf-m-danger:focus {
+    background-color: #c00;
+    border-color: #c00;
+}
+body .pf-c-button.pf-m-danger.delete-button {
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    float: right;
+}
+body .pf-c-dropdown__menu-item {
+    color: #000;
+}
+body .pf-c-dropdown__menu-item:hover {
+    color: #000;
+    background-color: #f1f1ee;
+}
+body #welcomeScreen .pf-c-page__main-section .pf-c-page__main-body {
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+body #welcomeScreen .pf-c-card__title h2.pf-u-display-flex {
+    display: inline !important;
+}

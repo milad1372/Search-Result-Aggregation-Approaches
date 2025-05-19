@@ -1,0 +1,47 @@
+.user-profile-container .card-container-grid {
+    column-count: 5;
+    /*display: 'flex';*/
+    column-gap: 20px !important; /* Adjust the gap between cards as needed */
+}
+
+
+
+canvas {
+    height: 150px !important; /* Adjust as needed */
+}
+.flex-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.bullet-points {
+    list-style-type: disc;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 20px;
+}
+
+
+.keyword-container {
+    display: flex;
+    align-items: center;  /* To vertically align the circle with the keyword text */
+    margin-bottom: 5px;   /* Spacing between each keyword */
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 10px;   /* spacing between circle and keyword */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0;       /* Prevent the circle from shrinking */
+}
+.circle-filled {
+    background-color: blue;
+}

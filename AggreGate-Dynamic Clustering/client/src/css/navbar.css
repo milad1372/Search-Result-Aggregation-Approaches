@@ -1,0 +1,68 @@
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    background-color: transparent !important;
+    color: black !important;
+}
+
+
+.m-0 {
+    margin: 0!important;
+}
+
+.header-navbar{
+    transform: translate3d(0, 0, 0);
+    min-width: 11.0625rem;
+    transition: .3s ease-in-out;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+    height: 4rem;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1030;
+    border: none !important;
+
+}
+.header-navbar-main{
+    transform: translate3d(0, 0, 0);
+    min-width: 11.0625rem;
+    transition: .3s ease-in-out;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+    height: 3.5rem;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1030;
+    border: none !important;
+
+}
+
+/* Add a wrapper around the div with the className "navbar213" */
+.wrapper {
+    position: relative;
+    border: none !important;
+}
+
+/* Add border to the ::after pseudo-element of the wrapper */
+.wrapper::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid red !important; /* Change "red" to the desired border color */
+    pointer-events: none; /* To allow interactions with the content behind */
+}
+
+.nav-link {
+    font-size: .875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4d4d4d;
+  }
