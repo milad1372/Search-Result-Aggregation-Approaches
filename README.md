@@ -1,7 +1,8 @@
 # Search Result Aggregation Interfaces (MERN Stack)
 
 This project implements four search result aggregation interfaces (Tab-Based, Single List, Bento Box, and Thematic Clustering) as part of the study titled:  
-**"A Study of Search Result Aggregation Approaches for the Digital Humanities"**  
+**"A Study of Search Result Aggregation Approaches for the Digital Humanities"** 
+ 
 Authored by Milad Momeni and Orland Hoeber  
 
 
