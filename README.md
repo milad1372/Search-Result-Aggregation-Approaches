@@ -95,7 +95,7 @@ Each interface issues the same search query across platforms and aggregates the 
 
 If you use this system for research or teaching, please cite:
 
-Momeni, M., & Hoeber, O. (2025). A study of search result aggregation approaches for the digital humanities. Journal of the Association for Information Science and Technology, 1–20. https://doi.org/10.1002/asi.7000620 MOMENI and HOEBER
+Momeni, M., & Hoeber, O. (2025). A study of search result aggregation approaches for the digital humanities. Journal of the Association for Information Science and Technology, 1–20. [https://doi.org/10.1002/asi.70006](https://doi.org/10.1002/asi.70006)
 
 ---
 
